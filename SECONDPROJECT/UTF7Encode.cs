@@ -10,7 +10,9 @@ namespace SECONDPROJECT
     {
         static void Main(string[] args)
         {
-            UTF7Encoding encode = new UTF7Encoding();//Creating a UTF7Encoding Object
+            //UTF7Encoding encode = new UTF7Encoding();  //Creating a UTF7Encoding Object
+            //UTF8Encoding encode = new UTF8Encoding();  //Creating a UTF8Encoding Object
+            UTF32Encoding encode = new UTF32Encoding();  //Creating a UTF32Encoding Object
             Console.WriteLine("Enter the string : ");
             string s = Console.ReadLine();//Input from the user
             Console.WriteLine();
