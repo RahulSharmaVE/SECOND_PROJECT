@@ -21,11 +21,11 @@ namespace SECONDPROJECT
             Console.Write("Encoded Bytes are : ");
             foreach (byte b in bytes)
             {
-                Console.WriteLine(b);//Encoded bytes output
+                Console.Write("[{0}] ",b);//Encoded bytes output
             }
             Console.WriteLine();
             string decodestring= encode.GetString(bytes);//Decode the bytes back into the string 
-            Console.WriteLine("Decoded Bytes are : ");
+            Console.Write("Decoded Bytes are : ");
             Console.WriteLine(decodestring);
         }
     }
