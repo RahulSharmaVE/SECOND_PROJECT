@@ -27,6 +27,7 @@ namespace SECONDPROJECT
             string decodestring= encode.GetString(bytes);//Decode the bytes back into the string 
             Console.Write("Decoded Bytes are : ");
             Console.WriteLine(decodestring);
+
         }
     }
 }
